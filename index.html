@@ -2,29 +2,71 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SmartLot Trader – Edukasi Sebelum Trading</title>
-  <meta name="description" content="Mini course 3 hari + Bot AI edukasi. Pahami risiko & strategi sebelum memilih broker. Aman-mode bridging ke Headway.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartLot Trader - Bangun Gaya Tradingmu</title>
+  <meta name="description" content="Mini course, bot AI & strategi XAUUSD. Dapatkan edukasi sebelum trading.">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-50 text-gray-900">
-  <header class="w-full border-b bg-white">
-    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-      <div class="text-xl font-bold">SmartLot Trader</div>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-white border-b shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="text-xl font-bold text-yellow-600">SmartLot Trader</div>
+      <nav class="space-x-4 text-sm">
+        <a href="#edukasi" class="hover:text-yellow-600">Edukasi</a>
+        <a href="#bonus" class="hover:text-yellow-600">Bonus</a>
+        <a href="#ebook" class="hover:text-yellow-600">eBook</a>
+        <a href="#kontak" class="hover:text-yellow-600">Kontak</a>
+      </nav>
     </div>
   </header>
-  <section class="max-w-3xl mx-auto px-4 py-16 text-center">
-    <h1 class="text-4xl font-extrabold mb-4">Belajar Dulu, Trading Lebih Paham</h1>
-    <p class="text-lg mb-6">Mini course 3 hari + akses Bot AI untuk memahami XAUUSD & manajemen risiko—sebelum memilih broker.</p>
-    <div class="flex justify-center gap-4 mb-3 flex-wrap">
-      <a href="https://wa.me/6285246146607?text=Halo%20SmartLot%20Trader%2C%20saya%20mau%20ikut%20Mini%20Course%203%20Hari." class="bg-blue-600 text-white px-5 py-3 rounded-lg font-semibold shadow hover:bg-blue-700">Masuk Grup Belajar WhatsApp</a>
-      <a href="https://bit.ly/Headways?utm_source=landing_slt&utm_medium=button&utm_campaign=headway_ib" class="bg-white border px-5 py-3 rounded-lg font-semibold shadow">Lanjut ke Headway</a>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-blue-50 to-white py-12">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+      <!-- Left: Illustration -->
+      <div class="text-center md:text-left">
+        <h1 class="text-4xl font-extrabold text-yellow-600 mb-4">Bangun Gaya Tradingmu Sendiri</h1>
+        <p class="text-lg mb-6">Dapatkan akses <strong>mini course 3 hari</strong>, <strong>Bot AI</strong> untuk belajar XAUUSD, dan strategi manajemen risiko. Gratis, tanpa janji profit.</p>
+        <a href="https://bit.ly/Ambil-bonus"
+           class="inline-block bg-yellow-500 text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-yellow-600 transition">
+          Mulai Sekarang
+        </a>
+      </div>
+
+      <!-- Right: CTA Bonus -->
+      <div class="bg-white border rounded-xl p-6 shadow text-center">
+        <h2 class="text-2xl font-bold text-yellow-600 mb-2">Bonus Referral</h2>
+        <p class="mb-4">Sudah siap trading? Klaim bonus deposit di broker Headway setelah belajar!</p>
+        <a href="https://bit.ly/Ambil-bonus" target="_blank"
+           class="inline-block bg-yellow-500 text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-yellow-600 transition">
+          Klaim Bonus Sekarang
+        </a>
+        <p class="mt-2 text-xs text-gray-500">Kami adalah IB dan dapat menerima komisi dari pendaftaran Anda.</p>
+      </div>
     </div>
-    <p class="text-xs text-gray-500 mt-2">Tidak ada janji profit. Konten bersifat edukasi.</p>
   </section>
-  <footer class="text-center text-sm text-gray-500 py-6 border-t">
-    &copy; <script>document.write(new Date().getFullYear())</script> SmartLot Trader – Edukasi Afiliasi Trading Aman
+
+  <!-- Bonus & eBook Section -->
+  <section id="bonus" class="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-8">
+    <div class="bg-yellow-50 border border-yellow-100 p-6 rounded-lg shadow">
+      <h3 class="text-xl font-semibold text-yellow-700 mb-2">🎯 Dapatkan Akses Bot AI</h3>
+      <p class="text-gray-700 mb-3">Tanya jawab materi dasar, psikologi trading, dan strategi XAUUSD secara otomatis!</p>
+      <a href="https://bit.ly/Ambil-bonus" class="text-yellow-600 font-bold underline">Coba Sekarang</a>
+    </div>
+    <div id="ebook" class="bg-yellow-50 border border-yellow-100 p-6 rounded-lg shadow">
+      <h3 class="text-xl font-semibold text-yellow-700 mb-2">📘 eBook Strategi XAUUSD</h3>
+      <p class="text-gray-700 mb-3">Download eBook panduan analisis, manajemen risiko & checklist harian untuk pemula.</p>
+      <a href="https://bit.ly/Ambil-bonus" class="text-yellow-600 font-bold underline">Download Gratis</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="kontak" class="bg-gray-100 text-center py-6 text-sm text-gray-600">
+    <p>&copy; <script>document.write(new Date().getFullYear())</script> SmartLot Trader. Edukasi sebelum eksekusi. Kami bukan broker.</p>
   </footer>
+
 </body>
 </html>
